@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="./images/favicon.png" sizes="16x16 32x32" type="image/png">
+    <!-- Font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.1.1/swiper-bundle.css"
+        integrity="sha512-Ze01E5cRDy3ZSlrfq1xOjnVVuKh8GOC0AUCdBU6bgPQY5qoWzTKqijsLRm1ZONCH7ydBsOz+Z+9jLwz+97MGaQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- custome css file -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./slider.css">
+    <link rel="stylesheet" href="./swiper.css">
+</head>
+
+<body>
+
+    <!-- header section start -->
+    <header class="header other">
+        <a href="#" class="logo"><img src="./images/Janam_logo_drk.svg" alt=""></a>
+        <nav class="navbar">
+            <ul>
+                <li><a href="/index.html" class="active">Home</a></li>
+                <li class="drop_down" id="dropDown">
+                    <a href="./about.html">About</a>
+                    <!-- <ul class="drop_down_item">
+                        <li><a href="#">About Legalease</a></li>
+                        <li><a href="#">About Janam</a></li>
+                    </ul> -->
+                </li>
+                <li><a href="./partner.html">Our Partnerships</a></li>
+                <li><a href="./team.html">Team</a></li>
+                <li class="drop_down" id="dropDown">
+                    <a href="/contact.html">Contact</a>
+                    <!-- <ul class="drop_down_item">
+                        <li><a href="#">Join us as a partner</a></li>
+                        <li><a href="#">Join the Team / Contact Us</a></li>
+                    </ul> -->
+                </li>
+            </ul>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <form action="" class="login-form" id="login-form">
+            <h3>login now</h3>
+            <input type="email" placeholder="your email" class="box">
+            <input type="password" placeholder="your password" class="box">
+            <p>forget your password <a href="#">click here</a></p>
+            <p>don't have an account <a href="#">Register</a></p>
+            <input type="submit" value="login" class="btn login-btn">
+        </form>
+
+    </header>
+    <!-- header section end -->
+
+    <!-- banner section start -->
+    <!-- <section class="banner" id="banner">
+        <div class="content">
+            <h1>Janam – The Story Behind the Name</h1>
+            <p>Janam is a word with different meanings in Tamil, Malayalam, and Hindi. Janam in Tamil and Malayalam
+                means “People” and in Hindi means “Birth”. This name was finalized through a poll among the
+                LegalEasians. Janam is for the people who look upon the law as their last resort and it is a birth of
+                new beginnings for people and organizations requiring legal assistance.</p>
+        </div>
+    </section> -->
+    <!-- banner section end -->
+
+    <!-- category section start -->
+    <!-- <section class="category">
+        <h3>Topics</h3>
+        <div class="wrapper">
+            <div class="icon"><i id="left" class="fa-solid fa-angle-left"></i></div>
+            <ul class="tabs-box">
+                <li class="tab active">All</li>
+                <li class="tab">Animals</li>
+                <li class="tab">Covid-19</li>
+                <li class="tab">Infant & Children</li>
+                <li class="tab">Oceans</li>
+                <li class="tab">Rain</li>
+                <li class="tab">forests</li>
+                <li class="tab">Pro Bono</li>
+            </ul>
+            <div class="icon"><i id="right" class="fa-solid fa-angle-right"></i></div>
+        </div>
+        <div class="fas fa-bars category_menu" id="category-btn"></div>
+    </section> -->
+    <!-- category section end -->
+
+    <!-- blog section start -->
+    <section class="post_section otherpage">
+        <div class="post-row gap-3">
+            <!-- blog left section start -->
+            <div class="post-col-8">
+                <div class="about-page">
+                    <h2>About Janam</h2>
+                    <p>Janam means "people" in Tamil and Malayalam and translates to "birth" in Hindi. The CSR initiative of LegalEase Solutions is named Janam. We believe in the responsibility of contributing back to the societies we are a part of as a habit and not an occasion. We are working to make an impact at the policy level to amplify and sustain change at the grassroots level.</p>
+                
+                </div>
+            </div>
+            <!-- blog left section end -->
+            <!-- blog right section start -->
+            <div class="post-col-4">
+                <div class="aside">
+                    <div class="trending-post">
+                        <h2>Trending</h2>
+                        <div class="container swiper">
+                            <div class="slide-container">
+                                <div class="card-wrapper swiper-wrapper">
+                                    <div class="card swiper-slide">
+                                        <div class="image-box">
+                                            <a href="#"><img src="./images/ABA-helps-animal-1920x1080.jpg" alt="" /></a>
+                                        </div>
+                                        <div class="profile-details">
+                                            <div class="name-job">
+                                                <a href="#">
+                                                    <h3 class="name">Keeping the Wolverine Wild in a Climate Crisis</h3>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card swiper-slide">
+                                        <div class="image-box">
+                                            <a href="#"><img src="./images/ABA-helps-animal-1920x1080.jpg" alt="" /></a>
+                                        </div>
+                                        <div class="profile-details">
+                                            <div class="name-job">
+                                                <a href="#">
+                                                    <h3 class="name">Keeping the Wolverine Wild in a Climate Crisis</h3>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card swiper-slide">
+                                        <div class="image-box">
+                                            <a href="#"><img src="./images/ABA-helps-animal-1920x1080.jpg" alt="" /></a>
+                                        </div>
+                                        <div class="profile-details">
+                                            <div class="name-job">
+                                                <a href="#">
+                                                    <h3 class="name">Keeping the Wolverine Wild in a Climate Crisis</h3>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card swiper-slide">
+                                        <div class="image-box">
+                                            <a href="#"><img src="./images/ABA-helps-animal-1920x1080.jpg" alt="" /></a>
+                                        </div>
+                                        <div class="profile-details">
+                                            <div class="name-job">
+                                                <a href="#">
+                                                    <h3 class="name">Keeping the Wolverine Wild in a Climate Crisis</h3>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card swiper-slide">
+                                        <div class="image-box">
+                                            <a href="#"><img src="./images/ABA-helps-animal-1920x1080.jpg" alt="" /></a>
+                                        </div>
+                                        <div class="profile-details">
+                                            <div class="name-job">
+                                                <a href="#">
+                                                    <h3 class="name">Keeping the Wolverine Wild in a Climate Crisis</h3>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card swiper-slide">
+                                        <div class="image-box">
+                                            <a href="#"><img src="./images/ABA-helps-animal-1920x1080.jpg" alt="" /></a>
+                                        </div>
+                                        <div class="profile-details">
+                                            <div class="name-job">
+                                                <a href="#">
+                                                    <h3 class="name">Keeping the Wolverine Wild in a Climate Crisis</h3>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-button-next swiper-navBtn">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                            <div class="swiper-button-prev swiper-navBtn">
+                                <i class="fa-solid fa-arrow-left"></i>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                    <div class="recomended-post">
+                        <h2>Recomended</h2>
+                        <div class="sm-post">
+                            <div class="recomented-post-card recomented-post-card-sm">
+                                <div class="recomented-post-image">
+                                    <a href="#"><img src="./images/ABA-helps-animal-1920x1080.jpg" alt=""></a>
+                                </div>
+                                <div class="recomented-post-heading">
+                                    <a href="#">
+                                        <h2>ABA Helps Animal Shelters Address Challenges During COVID-19 Pandemic
+                                        </h2>
+                                        
+                                    </a>
+                                    <div class="recomented-post-content-sm">
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id quis incidunt sint hic atque cum!</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="recomented-post-card">
+                                <div class="recomented-post-image">
+                                    <a href="#"><img src="./images/ABA-helps-animal-1920x1080.jpg" alt=""></a>
+                                </div>
+                                <div class="recomented-post-heading">
+                                    <a href="#">
+                                        <h2>ABA Helps Animal Shelters Address Challenges During COVID-19 Pandemic
+                                        </h2>
+                                    </a>
+                                    <div class="recomented-post-content-sm">
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id quis incidunt sint hic atque cum!</p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+
+                            <div class="recomented-post-card">
+                                <div class="recomented-post-image">
+                                    <a href="#"><img src="./images/ABA-helps-animal-1920x1080.jpg" alt=""></a>
+                                </div>
+                                <div class="recomented-post-heading">
+                                    <a href="#">
+                                        <h2>ABA Helps Animal Shelters Address Challenges During COVID-19 Pandemic
+                                        </h2>
+                                    </a>
+                                    <div class="recomented-post-content-sm">
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id quis incidunt sint hic atque cum!</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="recomented-post-card">
+                                <div class="recomented-post-image">
+                                    <a href="#"><img src="./images/ABA-helps-animal-1920x1080.jpg" alt=""></a>
+                                </div>
+                                <div class="recomented-post-heading">
+                                    <a href="#">
+                                        <h2>ABA Helps Animal Shelters Address Challenges During COVID-19 Pandemic
+                                        </h2>
+                                    </a>
+                                    <div class="recomented-post-content-sm">
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id quis incidunt sint hic atque cum!</p>
+                                    </div>
+                                </div>
+                            </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+            <!-- blog right section end -->
+        </div>
+    </section>
+    <!-- blog section end -->
+
+    <!-- footer section start -->
+    <div class="footer">
+        <div>
+            <p>An Ann Arbor company. Powered by LegalEase Solutions LLC.</p>
+        </div>
+    </div>
+    <!-- footer section end -->
+
+    <!-- custom javascript file -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.1.1/swiper-bundle.min.js"
+        integrity="sha512-J0i98QZsJc12MkNEyDbinrKKoe7Jiw0rtryAXBesZrVwRkaqgP9QNCPyo5sMZ2jfiJQb+9RIE4I3xNl8fFqQIA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./app.js"></script>
+    <script src="./slider.js"></script>
+    <script src="./swiper.js"></script>
+
+
+</body>
+
+</html>
